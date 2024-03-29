@@ -9,12 +9,12 @@ public class AverageNum
             throw new ArgumentException("Tablica liczb jest pusta lub null.");
         }
         
-        int sum3 = 0;
-        foreach (int num3 in numbers)
+        int sumConflict = 0;
+        foreach (int numConflict in numbers)
         {
-            sum3 += num3;
+            sumConflict += numConflict;
         }
 
-        return (double)sum3 / numbers.Length;
+        return (double)sumConflict / numbers.Length;
     }
 }
