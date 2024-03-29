@@ -23,5 +23,7 @@ public class Program
         int[] numbers1 = { 2, 44, 16, 8, 10 };
         int max = WebApplication1.MaxNum.FindMax(numbers1);
         Console.WriteLine("Maksymalna wartość w tablicy: " + max);
+        
+        Console.WriteLine("test");
     }
 }
