@@ -18,5 +18,10 @@ public class Program
         int[] numbers = { 2, 4, 6, 8, 10 };
         double average = WebApplication1.AverageNum.CalculateAverage(numbers);
         Console.WriteLine("Średnia liczb wynosi: " + average);
+        
+        Console.WriteLine($"{Environment.NewLine}Zadanie4: ");
+        int[] numbers1 = { 2, 44, 16, 8, 10 };
+        int max = WebApplication1.MaxNum.FindMax(numbers1);
+        Console.WriteLine("Maksymalna wartość w tablicy: " + max);
     }
 }
